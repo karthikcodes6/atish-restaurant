@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+:root {
+  --primary: rgb(246, 184, 10);
+  --secondary: #2b2b2b;
+  --text-secondary: rgb(56, 63, 72);
+  --text-primary: #ffffff;
+  --bg-white: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0em;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 48px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+h6 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
