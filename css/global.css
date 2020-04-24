@@ -13,8 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin: 0em;
 }
 
@@ -43,6 +42,10 @@ h6 {
   font-weight: normal;
 }
 
+p {
+  margin: 0em;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--text-primary);
@@ -53,4 +56,34 @@ body {
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.menu {
+  float: right;
+}
+
+header {
+  padding: 10px 0 10px 0px;
+  background-color: var(--bg-white);
+}
+
+.menu span a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: var(--text-secondary);
+}
+
+.menu span a:hover {
+  text-decoration: underline;
+}
+
+.menu span .active {
+  color: var(--primary);
 }

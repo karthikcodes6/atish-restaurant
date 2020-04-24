@@ -1,0 +1,115 @@
+:root {
+  --primary: rgb(246, 184, 10);
+  --secondary: #2b2b2b;
+  --secondary1: #2b2b2b8f;
+  --text-secondary: rgb(56, 63, 72);
+  --text-primary: #ffffff;
+  --bg-white: #ffffff;
+}
+
+.section-1 {
+  background: url(../images/hero-image-1.jpg) no-repeat 0 -520px;
+  min-height: 550px;
+}
+
+.section-1-head {
+  margin: 0px 0px 20px 0px;
+}
+
+.section-1-sub {
+  margin: 0;
+}
+
+.text-overlay {
+  float: left;
+  margin-top: 100px;
+  color: var(--text-primary);
+  padding: 20px 20px 20px 20px;
+  background-color: var(--secondary);
+  opacity: 75%;
+}
+
+.sign-up-section {
+  text-align: center;
+  margin-top: -12px;
+}
+
+.sign-up-form form {
+  padding: 15px 30px 15px 30px;
+  /* margin-top: -25px; */
+  display: inline-block;
+  background: var(--bg-white);
+  /* margin-bottom: 20px; */
+  position: relative;
+  top: -55px;
+}
+
+.sign-up-form form input[type="email"],
+.sign-up-form form input[type="tel"] {
+  padding: 8px;
+  height: 25px;
+  width: 250px;
+  margin-right: 20px;
+  border-color: var(--secondary);
+  border-radius: 5px;
+}
+
+.sign-up-form form button {
+  padding: 14px 30px 14px 30px;
+  background-color: var(--secondary);
+  border: 0;
+  border-radius: 5px;
+  color: var(--text-primary);
+}
+
+.section-2 {
+  text-align: center;
+  background-color: var(--secondary);
+  color: var(--text-primary);
+  padding: 20px 0px 20px 0px;
+}
+
+.section-2 h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section-2 p {
+  margin-bottom: 10px;
+}
+
+.section-3 {
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.section-3 div img {
+  width: 100%;
+}
+
+.section-3 div .item {
+  float: left;
+  width: 370px;
+  margin: 15px;
+  background-color: var(--secondary);
+  color: var(--text-primary);
+}
+
+.section-3 h3 {
+  color: var(--text-secondary);
+}
+
+.section-3 div .item p {
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  color: var(--secondary);
+  padding: 35px;
+}
+
+footer h1 {
+  font-size: 35px;
+  font-weight: normal;
+}
